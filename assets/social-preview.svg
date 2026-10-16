@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 640" width="1280" height="640">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1a2042"/>
+      <stop offset="1" stop-color="#0b0e1f"/>
+    </linearGradient>
+  </defs>
+  <rect width="1280" height="640" fill="url(#bg)"/>
+  <rect x="0" y="628" width="320" height="12" fill="#2ec4a6"/>
+  <rect x="320" y="628" width="320" height="12" fill="#f5b83d"/>
+  <rect x="640" y="628" width="320" height="12" fill="#f0645a"/>
+  <rect x="960" y="628" width="320" height="12" fill="#9b8cff"/>
+  <svg x="104" y="170" width="300" height="300" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="ink" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#262f57"/>
+      <stop offset="1" stop-color="#121731"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="512" height="512" rx="96" fill="url(#ink)"/>
+
+  <!-- roomservice: a service bell -->
+  <g transform="translate(60 60) scale(1.0814)">
+    <rect width="172" height="172" rx="36" fill="#2ec4a6"/>
+    <circle cx="86" cy="58" r="9" fill="#141a33"/>
+    <path d="M38 118 A48 48 0 0 1 134 118 Z" fill="#141a33"/>
+    <rect x="28" y="122" width="116" height="14" rx="7" fill="#141a33"/>
+  </g>
+
+  <!-- snapshot: a camera viewfinder -->
+  <g transform="translate(266 60) scale(1.0814)">
+    <rect width="172" height="172" rx="36" fill="#f5b83d"/>
+    <g fill="none" stroke="#141a33" stroke-width="13" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M40 66 V40 H66"/>
+      <path d="M106 40 H132 V66"/>
+      <path d="M132 106 V132 H106"/>
+      <path d="M66 132 H40 V106"/>
+    </g>
+    <circle cx="86" cy="86" r="21" fill="#141a33"/>
+  </g>
+
+  <!-- judge-loop: a scored loop with a check -->
+  <g transform="translate(60 266) scale(1.0814)">
+    <rect width="172" height="172" rx="36" fill="#f0645a"/>
+    <path d="M126 86 A40 40 0 1 1 106 51.4" fill="none" stroke="#141a33" stroke-width="13" stroke-linecap="round"/>
+    <polygon points="122,61 96,63 112,37" fill="#141a33"/>
+    <path d="M68 88 L81 101 L104 74" fill="none" stroke="#141a33" stroke-width="13" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <!-- voxel-artist-loop: an isometric voxel -->
+  <g transform="translate(266 266) scale(1.0814)">
+    <rect width="172" height="172" rx="36" fill="#9b8cff"/>
+    <polygon points="86,36 132,62 86,88 40,62" fill="#ffffff"/>
+    <polygon points="40,62 86,88 86,138 40,112" fill="#141a33"/>
+    <polygon points="132,62 86,88 86,138 132,112" fill="#3b3f73"/>
+  </g>
+</svg>
+  <g font-family="-apple-system, 'SF Pro Display', 'Helvetica Neue', Helvetica, Arial, sans-serif">
+    <text x="470" y="300" font-size="112" font-weight="800" fill="#f4f5fb" letter-spacing="-3">agent-skills</text>
+    <text x="474" y="366" font-size="34" fill="#c9cde6">Four skills for coding agents. Built for</text>
+    <text x="474" y="410" font-size="34" fill="#c9cde6">Claude Code, in the open Agent Skills format.</text>
+    <text x="474" y="478" font-size="26" font-weight="600" letter-spacing="0.5"><tspan fill="#2ec4a6">roomservice</tspan><tspan fill="#5d6390"> · </tspan><tspan fill="#f5b83d">snapshot</tspan><tspan fill="#5d6390"> · </tspan><tspan fill="#f0645a">judge-loop</tspan><tspan fill="#5d6390"> · </tspan><tspan fill="#9b8cff">voxel-artist-loop</tspan></text>
+  </g>
+</svg>
