@@ -1,6 +1,6 @@
 ---
 name: snapshot
-description: Take one slice of the software — a feature, flow, screen, endpoint, CLI command or module — and test it deeply the way real humans use and misuse it, then freeze that behaviour into lasting tests. Explores it hands-on (real UI, real API, real CLI), writes scenario tests in the project's own framework, captures golden snapshots of outputs, and reports the bugs found. Use when the user says "snapshot", "/snapshot", "test this part deeply", "human tests", "teste das richtig", "test it like a real user would", "lock this feature down", "make sure X really works", or before refactoring a part that has thin tests. For a whole-app product verdict use hyper-user-tester instead.
+description: Take one slice of the software — a feature, flow, screen, endpoint, CLI command or module — and test it deeply the way real humans use and misuse it, then freeze that behaviour into lasting tests. Explores it hands-on (real UI, real API, real CLI), writes scenario tests in the project's own framework, captures golden snapshots of outputs, and reports the bugs found. Use when the user says "snapshot", "/snapshot", "test this part deeply", "human tests", "teste das richtig", "test it like a real user would", "lock this feature down", "make sure X really works", or before refactoring a part that has thin tests.
 argument-hint: "<the slice, e.g. 'checkout flow', 'apps/web/app/sets/[id]', 'the export command'>"
 ---
 
