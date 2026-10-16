@@ -1,0 +1,6 @@
+{
+  "name": "agent-skills",
+  "description": "XyndoX agent skills for Claude Code",
+  "owner": { "name": "XyndoX" },
+  "plugins": [{ "name": "agent-skills", "source": "./", "description": "roomservice, snapshot, judge-loop, voxel-artist-loop", "category": "development" }]
+}

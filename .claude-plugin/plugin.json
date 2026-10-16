@@ -1,0 +1,8 @@
+{
+  "name": "agent-skills",
+  "version": "1.0.0",
+  "description": "Skills for coding agents: roomservice (repo cleanup + MAP.md), snapshot (deep scenario tests for one slice), judge-loop (scored quality gate), voxel-artist-loop (commissioning visual art)",
+  "author": { "name": "XyndoX" },
+  "license": "MIT",
+  "skills": "./skills"
+}
